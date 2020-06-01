@@ -3,7 +3,7 @@
 dependencies: []
 
 galaxy_info:
-  author: Anmol Nagpal
+  author: tmeralus 
   description: This ansible role is used to install Jenkins with docker on server.
   company: "tmeralus Inc."
   license: "license (BSD, MIT)"
