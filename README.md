@@ -1,9 +1,7 @@
 # ansible-role-docker-jenkins
  ansible role used to install Jenkins with docker on dedicated server
 
-
  ## Prerequisites
-
  This module has a few dependencies:
 
  - [Ansible2.8](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
@@ -14,13 +12,11 @@
  ## What Includes
 
  Followiing things includes in this role:
-
  - jenkins
 
  ## Example Playbook
 
  **IMPORTANT:** Since the `master` branch used in `source` varies based on new modifications, I suggest that you use the release versions [here](https://github.com/tmeralus/ansible-role-docker-jenkins.git/releases).
-
 
  ```yaml
  - hosts: localhost
@@ -29,7 +25,6 @@
    roles:
      - tmeralus.ansible_role_docker_jenkins
  ```
-
 
  ## Variables
 
@@ -53,7 +48,6 @@
    cert_path: "/root/config/star-tmeralus.crt"
    key_path: "/root/config/tmeralus-sub-domain-private-key.pem"
  ```
-
 
  ## Installation
 
